@@ -1,0 +1,17 @@
+html, body {
+    margin: 5px;
+    padding: 0;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+/*@media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: #ccc;
+    }
+  }*/
+
+  

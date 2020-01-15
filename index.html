@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first Vue app</title>
+  <link rel="stylesheet" href="http://ez-css.now.sh">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <h3> {{title}} </h3>
+    <form @submit.prevent="addTodo">
+      <label for="newTodo">New Todo</label>
+      <input v-model="newTodo" type="text" name="newTodo" id="newTodo" value="">
+      <button type="submit" name="button">Add</button>
+    </form>
+    <button @click="allDone" type="submit" name="button">All Done</button>
+   
+    <ul>
+      <li v-for="todo in todos">
+        <input class="done" type="checkbox" v-model="todo.done">
+        <span :class="{ done: todo.done }">{{todo.title}}</span>
+        <button @click="removeTodo(todo)" type="button" name="button">Remove</button>
+      </li>
+    </ul>
+    <h4>{{newTodo}}</h4>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
