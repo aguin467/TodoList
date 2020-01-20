@@ -1,6 +1,6 @@
 # js_Vue
 
-VanillaJS and Vue
+VanillaJS and Vue [![Build Status](https://travis-ci.com/aguin467/js_Vue.svg?branch=master)](https://travis-ci.com/aguin467/js_Vue)
 
 <b><i>This assumes you are using GNU/Linux
   
