@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 const app = new Vue({
 	el: '#app',
 	data: {
