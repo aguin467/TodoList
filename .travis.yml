@@ -20,3 +20,4 @@ cache:
   directories: 
      - ".cache"
      - "$HOME/.npm"
+     - "node_modules"
