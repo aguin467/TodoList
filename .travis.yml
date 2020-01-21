@@ -1,6 +1,14 @@
 language: node_js
+
+os: 
+- Linux
+dist: xenial
+
+arch: amd64
+
 node_js: 
   - "stable"
+  
 cache:
   directories:
     - "node_modules"

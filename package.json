@@ -17,6 +17,8 @@
     "eslint-plugin-vue": "^6.1.2",
     "sass": "^1.24.4",
     "vue": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
     "yaml-lint": "^1.2.4"
   },
   "dependencies": {
