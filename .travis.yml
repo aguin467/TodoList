@@ -15,4 +15,4 @@ install:
 
 cache:
   directories:
-    - "node_modules"
+    - "npm"
