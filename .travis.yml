@@ -13,6 +13,4 @@ node_js:
 install:
   - npm install
 
-cache:
-  directories:
-    - "npm"
+cache: npm
