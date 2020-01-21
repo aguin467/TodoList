@@ -1,14 +1,18 @@
 language: node_js
 
 os: 
-- Linux
+- linux
 dist: xenial
 
 arch: amd64
 
 node_js: 
   - "stable"
-  
+
+
+install:
+  - npm install
+
 cache:
   directories:
     - "node_modules"
