@@ -14,6 +14,9 @@ install:
 node_js: 
   - "v13.6.0"
 
-cache: 
+cache:
+  npm: true
+  timeout: 1000
   directories: 
-   - ".cache"
+     - ".cache"
+     - "$HOME/.npm"
