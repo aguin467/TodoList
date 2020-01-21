@@ -1,13 +1,12 @@
 language: node_js
 node_js: 
   - 13.6.0
-  - 10
-  - 9
-  - 8
- 
-sudo: false
+
 install:
   - cd js_Vue & npm ci && npm i
+env:
+  - TEST=true 
+  - PROD=false
 script:
   - npm run test
 
