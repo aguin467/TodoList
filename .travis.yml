@@ -6,12 +6,15 @@ dist: xenial
 
 arch: amd64
 
+install:
+- npm ci
+
 node_js: 
   - "stable"
-
 
 install:
   - npm install
 
 cache: 
-  npm: true
+  directories: 
+   - "$HOME/.npm"
