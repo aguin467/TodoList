@@ -1,23 +1,26 @@
 language: node_js
+node_js: 
+  - 13.6.0
+  - 10
+  - 9
+  - 8
+ 
+sudo: false
+before_install:
+  - npm ci && npm c
+install:
+  - cd js_Vue & npm ci && npm i
+script:
+  - npm run test
 
 os: linux
 dist: bionic
-
 arch: amd64
-
-before_install:
-  - npm i
-  
-install:
-- npm ci
-
-node_js: 
-  - "v13.6.0"
 
 cache:
   npm: true
   timeout: 1000
   directories: 
-     - ".cache"
-     - "$HOME/.npm"
-     - "node_modules"
+     - .cache
+     - $HOME/.npm
+     - node_modules
