@@ -1,6 +1,6 @@
 # js_Vue
 
-VanillaJS and Vue 
+A Todo list written in vanilla javascript and vue
 
 <b><i>This assumes you are using GNU/Linux
   
