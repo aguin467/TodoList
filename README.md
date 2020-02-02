@@ -1,11 +1,5 @@
-# js_Vue
+# A Todo list written in javascript and vue
 
-A Todo list written in vanilla javascript and vue
-
-<b><i>This assumes you are using GNU/Linux
-  
-<b><i>This also assumes you have vscode and nodejs installed 
-  
 🚧<b><i>This is still a work in progress🚧
   
 ------------------------------------------------------------------------------------------------------------------------------------------
