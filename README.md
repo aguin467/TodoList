@@ -1,7 +1,9 @@
-# A Todo list written in javascript and vue
+# Todo List
 
-🚧<b><i>This is still a work in progress🚧
-  
+## About
+
+Todo list written in javascript and vue
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 - Open up vscode in the terminal 🖥
