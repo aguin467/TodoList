@@ -1,17 +1,27 @@
-html, body {
-    margin: 5px;
-    padding: 0;
+html,
+body {
+  margin: 5px;
+  padding: 0;
 }
 
 .done {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-/*@media (prefers-color-scheme: dark) {
-    body {
-      background-color: black;
-      color: #ccc;
-    }
-  }*/
 
-  
+
+button,
+input {
+  border-radius: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #ccc;
+  }
+}
